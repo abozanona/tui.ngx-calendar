@@ -1,6 +1,6 @@
 {
-  "name": "ngx-tui-dev",
-  "version": "0.0.0",
+  "name": "ngx-tui-calendar",
+  "version": "0.0.18",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
