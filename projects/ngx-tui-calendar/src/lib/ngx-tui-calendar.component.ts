@@ -132,31 +132,31 @@ export class NgxTuiCalendarComponent implements OnChanges, TuiCalendarOptions {
   }
 
   public getDate() {
-    this.tuiCalendar.getDate();
+    return this.tuiCalendar.getDate();
   }
 
   public getDateRangeEnd() {
-    this.tuiCalendar.getDateRangeEnd();
+    return this.tuiCalendar.getDateRangeEnd();
   }
 
   public getDateRangeStart() {
-    this.tuiCalendar.getDateRangeStart();
+    return this.tuiCalendar.getDateRangeStart();
   }
 
   public getElement(scheduleId: string, calendarId: string) {
-    this.tuiCalendar.getElement(scheduleId, calendarId);
+    return return this.tuiCalendar.getElement(scheduleId, calendarId);
   }
 
   public getOptions() {
-    <TuiCalendarOptions>this.tuiCalendar.getOptions();
+    return <TuiCalendarOptions>this.tuiCalendar.getOptions();
   }
 
   public getSchedule(scheduleId: string, calendarId: string) {
-    this.tuiCalendar.getSchedule(scheduleId, calendarId);
+    return this.tuiCalendar.getSchedule(scheduleId, calendarId);
   }
 
   public getViewName() {
-    this.tuiCalendar.getViewName();
+    return this.tuiCalendar.getViewName();
   }
 
   public hideMoreView() {
