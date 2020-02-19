@@ -144,7 +144,7 @@ export class NgxTuiCalendarComponent implements OnChanges, TuiCalendarOptions {
   }
 
   public getElement(scheduleId: string, calendarId: string) {
-    return return this.tuiCalendar.getElement(scheduleId, calendarId);
+    return this.tuiCalendar.getElement(scheduleId, calendarId);
   }
 
   public getOptions() {
